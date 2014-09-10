@@ -10,9 +10,23 @@
       margin-left: -75px;
       margin-top: -38px;
     }
+    
+    .ferret span{
+      -webkit-animation: rotating 2s linear infinite;
+    }
+    
+    @-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
   </style>
 </head>
 <body>
- <span class="ferret">🎄😎</span>
+ <p class="ferret"><span>🎄</span><span>😎</span></p>
 </body>
 </html>
